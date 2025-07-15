@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Petshop </title>
+    <style>
+        * {
+            padding: 10;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #nav {
+            height: 10vh;
+            width: 90vw;
+            align-items: baseline;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            padding-top: 2vw;
+
+        }
+
+        div {
+            align-items: baseline;
+            display: inline;
+            justify-content: space-evenly;
+        }
+
+        .menuitems {
+            display: flex;
+            gap: 10px;
+        }
+
+        .icon {
+            color: greenyellow;
+        }
+
+        nav {
+            height: 10vh;
+            width: 90vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-left: 10vw;
+            padding-right: 10vw;
+        }
+
+        li {
+            align-items: baseline;
+            display: inline;
+            justify-content: space-between;
+            padding: 1vw;
+        }
+
+        ul {
+            justify-content: space-between;
+            display: flex;
+            gap: 30px;
+
+        }
+
+        .HOME {
+            font-size: medium;
+            font-weight: 100;
+        }
+
+        .CONTACT {
+            border: 1px solid greenyellow;
+            background-color: greenyellow;
+            color: white;
+            padding: 1vw;
+        }
+
+        .pet {
+            display: flex;
+            font-size: xx-large;
+            gap: 10px;
+
+        }
+
+        body {
+            padding-left: 4vw;
+            padding-right: 10vw;
+
+        }
+
+        #main {
+            height: 30rem;
+            width: 70rem;
+            background-image: url(/dog\ img.jpg);
+            background-size: cover;
+            margin-left: 10vw;
+            margin-right: 10vw;
+
+            /* border-radius: 5px; */
+            /* color: aliceblue; */
+            /* justify-content: space-between; */
+        }
+
+        #H1 {
+            font-size: xx-large;
+            font-weight: 800;
+            padding-left: 5vw;
+            padding-top: 5vw;
+            gap: 10px;
+        }
+
+        #H2 {
+            font-size: large;
+            font-weight: 400;
+            color: aliceblue;
+            padding-left: 5vw;
+            padding-top: 2vw;
+        }
+
+        #P {
+            padding-left: 5vw;
+            color: aliceblue;
+            opacity: 60%;
+            padding-top: 2vw;
+            padding-bottom: 2vw;
+            font-weight: 100;
+        }
+
+        #Read {
+            margin-left: 5vw;
+            border: 1px solid aliceblue;
+            border-radius: 5px;
+            color: aliceblue;
+            justify-content: space-between;
+            font-weight: 100;
+            opacity: 60%;
+            padding: 4px;
+            padding-left: 1vw;
+            padding-right: 1vw;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="menu items">
+            <i class="fa-solid fa-location-dot icon"></i>
+            <div>
+                <p class="Our">OUR OFFICE</p>
+                <P>123 Street, New York, USA</P>
+            </div>
+        </div>
+        <div class="menu items">
+            <i class="fa-solid fa-envelope-open icon"></i>
+            <p class="Our">EMAIL</p>
+            <P>info@example.com</P>
+        </div>
+        <div class="menu items">
+            <i class="fa-solid fa-phone icon"></i>
+            <div>
+                <p class="Our">CALL US</p>
+                <p>+0123456789</p>
+            </div>
+        </div>
+    </nav><br>
+    <hr>
+    <nav>
+        <div class="pet">
+            <i class="fa-solid fa-store icon"></i>
+            <p>PET SHOP</p>
+        </div>
+        <ul>
+            <li class="HOME">HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICES</li>
+            <li>PRODUCTS</li>
+            <li>PAGE</li>
+            <li class="CONTACT">CONTACT</li>
+        </ul>
+    </nav>
+    <main id="main">
+        <h1 id="H1">PET SHOP</h1>
+        <h1 id="H2">MAKE YOUR PETS HAPPY</h1>
+        <P id="P">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure in, sed numquam voluptatem assumenda
+            porro
+            atque enim? Odio, dolore, eius vitae, officia vel cum praesentium autem ipsam exercitationem hic tempore.
+        </P>
+        <div id="Read">
+            <button>Read More</button>
+            <i class="fa-solid fa-circle-play icon"></i>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/bc52d8c3d4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
